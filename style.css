@@ -70,9 +70,7 @@ button {
     color: blue;
 }
 
-.video_box {
-    width: 928px;
-    height: 522px;
-    margin: 24px;
-    
+.main_left > iframe {
+    margin: 24px 80px;
+    border-radius: 14px;
 }
