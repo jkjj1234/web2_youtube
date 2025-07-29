@@ -54,6 +54,12 @@ a {
     gap: 20px;
 }
 
+.header_right > figure {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 button {
     background: none;
     border: none;
@@ -70,7 +76,29 @@ button {
     color: blue;
 }
 
+.main_container {
+    width: 928px;
+    margin: 0 80px;
+}
+
 .main_left > iframe {
-    margin: 24px 80px;
+    /* margin: 0 80px; */
+    margin-top: 20px;
     border-radius: 14px;
+}
+
+.main_left > h2 {
+    font-size: 20px;
+}
+
+.channel_box {
+    /* display: flex; */
+}
+
+.channel_text {
+    display: flex;
+}
+
+ul {
+
 }
